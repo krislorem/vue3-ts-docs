@@ -40,9 +40,9 @@ export default defineConfig({
           text: "常用组件",
           items: [
             { text: "介绍", link: "/components/" },
-            { text: "按钮 Button", link: "/components/button" },
-            { text: "表单 Form", link: "/components/form" },
-            { text: "表格 Table", link: "/components/table" },
+            { text: "介绍", link: "/components/button" },
+            { text: "介绍", link: "/components/" },
+            { text: "介绍", link: "/components/" },
           ],
         },
       ],
@@ -50,9 +50,5 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
-    footer: {
-      message: "学习 Vue 3",
-      copyright: "Copyright © 2024 zjp",
-    },
   },
 });

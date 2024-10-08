@@ -11,7 +11,7 @@ export default defineConfig({
       { text: "指南", link: "/guide/" },
       { text: "组件", link: "/components/" },
       { text: "API参考", link: "/api/" },
-      { text: "问题", link: "/faq/" },
+      { text: "", link: "/faq/" },
     ],
 
     // sidebar: [
@@ -28,31 +28,12 @@ export default defineConfig({
         {
           text: "开始",
           collapsible: true,
-          items: [
-            { text: "介绍", link: "/guide/" },
-            { text: "安装", link: "/guide/installation" },
-            { text: "基本概念", link: "/guide/concepts" },
-          ],
-        },
-      ],
-      components: [
-        {
-          text: "常用组件",
-          items: [
-            { text: "介绍", link: "/components/" },
-            { text: "按钮 Button", link: "/components/button" },
-            { text: "表单 Form", link: "/components/form" },
-            { text: "表格 Table", link: "/components/table" },
-          ],
+          items: [{ text: "介绍", link: "/guide/" }],
         },
       ],
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
-    footer: {
-      message: "学习 Vue 3",
-      copyright: "Copyright © 2024 zjp",
-    },
   },
 });
